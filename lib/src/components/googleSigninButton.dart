@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:flutter_fire/src/flutter_fire.dart';
+import 'package:flutter_fire/src/flutterfire.dart';
 import 'package:loading_indicator/loading_indicator.dart';
 
 class GoogleSigninButton extends StatelessWidget {
