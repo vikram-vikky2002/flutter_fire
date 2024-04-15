@@ -4,7 +4,7 @@
 This Flutter package, named `flutter_fire`, provides convenient and streamlined access to Firebase Authentication and Firestore operations within your Flutter applications. It simplifies tasks such as user authentication via email/password and Google Sign-In, as well as common Firestore operations like retrieving single documents, fetching all documents in a collection, and streaming data updates. With its intuitive methods, `flutter_fire` aims to enhance your development experience by seamlessly integrating Firebase services into your Flutter projects.
 
 <td>
-   <img src="">
+      <img src="https://github.com/vikram-vikky2002/flutter_fire/blob/main/files/NEW%20LOGO.png?raw=true" width=200>
 </td>
 
 ## Features
