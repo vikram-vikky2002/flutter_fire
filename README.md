@@ -112,5 +112,5 @@ Stream<User?> authStream = flutterFire.authStateChanges;
 These examples showcase how to perform common authentication and Firestore operations using the `flutter_fire` package, making it easier for developers to integrate Firebase services into their Flutter applications.
 
 <td>
-    <img src="">
+    <img src="https://github.com/vikram-vikky2002/flutter_fire/blob/main/lib/src/assets/google.png?raw=true">
 </td>
