@@ -29,7 +29,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -42,12 +41,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('FlutterFire Testing'),
+        title: const Text('FlutterFire Example'),
       ),
       body: SafeArea(
         child: Column(
           children: [
-            GoogleSigninButton(),
+            GoogleSigninButton(
+              extraFuntion: null,
+            ),
           ],
         ),
       ),

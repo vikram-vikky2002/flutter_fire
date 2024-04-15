@@ -1,8 +1,5 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_fire/src/flutter_fire.dart';
 import 'package:loading_indicator/loading_indicator.dart';
@@ -46,39 +43,38 @@ class GoogleSigninButton extends StatelessWidget {
                             ),
                           ),
                         )));
-            User? user = FlutterFire().currentUser;
             extraFuntion!();
-            try {
-              await FirebaseFirestore.instance
-                  .collection('users')
-                  .doc(user!.email)
-                  .get()
-                  .then((doc) async {
-                if (doc.exists) {
-                  await FirebaseFirestore.instance
-                      .collection('users')
-                      .doc(user.email)
-                      .update({
-                    'lastSignin': DateTime.now(),
-                  });
-                  if (kDebugMode) {
-                    print("Exist..");
-                  }
-                } else {
-                  await FirebaseFirestore.instance
-                      .collection('users')
-                      .doc(user.email)
-                      .set({});
-                  if (kDebugMode) {
-                    print("New doc Created..");
-                  }
-                }
-              });
-            } on FirebaseException catch (error) {
-              if (kDebugMode) {
-                print("Errro : $error");
-              }
-            }
+            // try {
+            //   await FirebaseFirestore.instance
+            //       .collection('users')
+            //       .doc(user!.email)
+            //       .get()
+            //       .then((doc) async {
+            //     if (doc.exists) {
+            //       await FirebaseFirestore.instance
+            //           .collection('users')
+            //           .doc(user.email)
+            //           .update({
+            //         'lastSignin': DateTime.now(),
+            //       });
+            //       if (kDebugMode) {
+            //         print("Exist..");
+            //       }
+            //     } else {
+            //       await FirebaseFirestore.instance
+            //           .collection('users')
+            //           .doc(user.email)
+            //           .set({});
+            //       if (kDebugMode) {
+            //         print("New doc Created..");
+            //       }
+            //     }
+            //   });
+            // } on FirebaseException catch (error) {
+            //   if (kDebugMode) {
+            //     print("Errro : $error");
+            //   }
+            // }
 
             Navigator.pop(context);
           });
