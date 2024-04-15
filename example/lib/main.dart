@@ -1,4 +1,4 @@
-import 'package:fire_flutter/src/components/googleSigninButton.dart';
+import 'package:fire_flutter_db/src/components/googleSigninButton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

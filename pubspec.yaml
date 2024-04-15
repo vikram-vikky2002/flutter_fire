@@ -1,4 +1,4 @@
-name: fire_flutter
+name: fire_flutter_db
 description: "FlutterFire simplifies Firebase integration in Flutter apps, offering streamlined authentication and Firestore database operations through a clean and intuitive API."
 version: 0.0.1
 homepage: https://github.com/vikram-vikky2002/flutter_fire?tab=readme-ov-file

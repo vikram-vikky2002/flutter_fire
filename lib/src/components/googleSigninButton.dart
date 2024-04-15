@@ -1,6 +1,6 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:fire_flutter/fire_flutter.dart';
+import 'package:fire_flutter_db/fire_flutter_db.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_indicator/loading_indicator.dart';
 

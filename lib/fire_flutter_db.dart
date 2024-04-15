@@ -1,3 +1,3 @@
-library flutter_fire;
+library flutter_fire_db;
 
 export 'src/flutterfire.dart';
