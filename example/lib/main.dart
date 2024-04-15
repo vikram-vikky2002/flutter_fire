@@ -1,6 +1,6 @@
+import 'package:fire_flutter/src/components/googleSigninButton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_fire/src/components/googleSigninButton.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();

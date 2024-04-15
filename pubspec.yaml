@@ -1,5 +1,5 @@
-name: flutter_fire
-description: "A new Flutter package project."
+name: fire_flutter
+description: "FlutterFire simplifies Firebase integration in Flutter apps, offering streamlined authentication and Firestore database operations through a clean and intuitive API."
 version: 0.0.1
 homepage: https://github.com/vikram-vikky2002/flutter_fire?tab=readme-ov-file
 
